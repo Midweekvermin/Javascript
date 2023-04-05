@@ -19,3 +19,7 @@ input.addEventListener("keypress", function(event){
 	addlist();
 }
 })
+ul.addEventListener("click", function(element){
+	element.target.remove();
+
+})
